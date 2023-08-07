@@ -1,0 +1,386 @@
+[p GLOBOPT AUTOSTATIC LFSROK ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45K22 ]
+[d frameptr 4065 ]
+"41 C:\Users\jiabo.wang\Desktop\L11_final_lab\PIC18F45K22/GLCD.c
+[v _GLCDBusyWait GLCDBusyWait `(v  1 e 1 0 ]
+"70
+[v _sendGLCDCommand sendGLCDCommand `(v  1 e 1 0 ]
+"96
+[v _setStartLine setStartLine `(v  1 e 1 0 ]
+"103
+[v _setXAddress setXAddress `(v  1 e 1 0 ]
+"110
+[v _setYAddress setYAddress `(v  1 e 1 0 ]
+"131
+[v _GLCDinit GLCDinit `(v  1 e 1 0 ]
+"140
+[v _writeByte writeByte `(v  1 e 1 0 ]
+"168
+[v _readByteReal readByteReal `(uc  1 e 1 0 ]
+"203
+[v _readByte readByte `(uc  1 e 1 0 ]
+"213
+[v _clearGLCD clearGLCD `(v  1 e 1 0 ]
+"223
+[v _SetDot SetDot `(v  1 e 1 0 ]
+"241
+[v _putchGLCD putchGLCD `(v  1 e 1 0 ]
+"17 C:\Users\jiabo.wang\Desktop\L11_final_lab\PIC18F45K22/main.c
+[v _dibuixar_linia dibuixar_linia `(v  1 e 1 0 ]
+"23
+[v _configGLCD configGLCD `(v  1 e 1 0 ]
+"35
+[v _configPIC configPIC `(v  1 e 1 0 ]
+"57
+[v _main main `(v  1 e 1 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul64.c
+[v ___omul __omul `(ul  1 e 4 0 ]
+"15 C:\Users\jiabo.wang\Desktop\L11_final_lab\PIC18F45K22/main.c
+[v _pos pos `[10]i  1 e 20 0 ]
+"52 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic18f45k22.h
+[v _ANSELA ANSELA `VEuc  1 e 1 @3896 ]
+"97
+[v _ANSELB ANSELB `VEuc  1 e 1 @3897 ]
+"198
+[v _ANSELD ANSELD `VEuc  1 e 1 @3899 ]
+"6565
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+[s S239 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"6635
+[s S248 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CCP2 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S257 . 1 `uc 1 AN12 1 0 :1:0 
+`uc 1 AN10 1 0 :1:1 
+`uc 1 AN8 1 0 :1:2 
+`uc 1 AN9 1 0 :1:3 
+`uc 1 AN11 1 0 :1:4 
+`uc 1 AN13 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S266 . 1 `uc 1 FLT0 1 0 :1:0 
+`uc 1 C12IN3M 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 C12IN2M 1 0 :1:3 
+`uc 1 T5G 1 0 :1:4 
+`uc 1 T1G 1 0 :1:5 
+]
+[s S273 . 1 `uc 1 SRI 1 0 :1:0 
+`uc 1 C12IN3N 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 C12IN2N 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 CCP3 1 0 :1:5 
+]
+[s S280 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 CTED1 1 0 :1:2 
+`uc 1 CTED2 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 T3CKI 1 0 :1:5 
+]
+[s S286 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 P2A 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 P3A 1 0 :1:5 
+]
+[s S291 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S294 . 1 `S239 1 . 1 0 `S248 1 . 1 0 `S257 1 . 1 0 `S266 1 . 1 0 `S273 1 . 1 0 `S280 1 . 1 0 `S286 1 . 1 0 `S291 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES294  1 e 1 @3969 ]
+"7142
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"8060
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"8282
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"8726
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S55 . 1 `uc 1 ADCS 1 0 :3:0 
+`uc 1 ACQT 1 0 :3:3 
+`uc 1 . 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+"13459
+[s S60 . 1 `uc 1 ADCS0 1 0 :1:0 
+`uc 1 ADCS1 1 0 :1:1 
+`uc 1 ADCS2 1 0 :1:2 
+`uc 1 ACQT0 1 0 :1:3 
+`uc 1 ACQT1 1 0 :1:4 
+`uc 1 ACQT2 1 0 :1:5 
+]
+[u S67 . 1 `S55 1 . 1 0 `S60 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES67  1 e 1 @4032 ]
+[s S83 . 1 `uc 1 NVCFG 1 0 :2:0 
+`uc 1 PVCFG 1 0 :2:2 
+`uc 1 . 1 0 :3:4 
+`uc 1 TRIGSEL 1 0 :1:7 
+]
+"13532
+[s S88 . 1 `uc 1 NVCFG0 1 0 :1:0 
+`uc 1 NVCFG1 1 0 :1:1 
+`uc 1 PVCFG0 1 0 :1:2 
+`uc 1 PVCFG1 1 0 :1:3 
+]
+[s S93 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CHSN3 1 0 :1:3 
+]
+[u S96 . 1 `S83 1 . 1 0 `S88 1 . 1 0 `S93 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES96  1 e 1 @4033 ]
+[s S114 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"13622
+[s S117 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+[s S121 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+]
+[s S129 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[s S132 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S135 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S138 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[s S141 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[u S144 . 1 `S114 1 . 1 0 `S117 1 . 1 0 `S121 1 . 1 0 `S129 1 . 1 0 `S132 1 . 1 0 `S135 1 . 1 0 `S138 1 . 1 0 `S141 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES144  1 e 1 @4034 ]
+"13709
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"13729
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+"57 C:\Users\jiabo.wang\Desktop\L11_final_lab\PIC18F45K22/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"63
+[v main@i i `i  1 a 2 43 ]
+"68
+[v main@i2 i2 `i  1 a 2 40 ]
+"61
+[v main@valor valor `i  1 a 2 38 ]
+"66
+[v main@iteracion iteracion `i  1 a 2 36 ]
+"65
+[v main@valor2 valor2 `i  1 a 2 34 ]
+"64
+[v main@percentatge2 percentatge2 `i  1 a 2 32 ]
+"62
+[v main@percentatge percentatge `i  1 a 2 30 ]
+"67
+[v main@inici inici `uc  1 a 1 42 ]
+"98
+} 0
+"17
+[v _dibuixar_linia dibuixar_linia `(v  1 e 1 0 ]
+{
+"18
+[v dibuixar_linia@i i `i  1 a 2 26 ]
+"21
+} 0
+"223 C:\Users\jiabo.wang\Desktop\L11_final_lab\PIC18F45K22/GLCD.c
+[v _SetDot SetDot `(v  1 e 1 0 ]
+{
+[v SetDot@x x `uc  1 a 1 wreg ]
+"225
+[v SetDot@page page `i  1 a 2 23 ]
+"227
+[v SetDot@read read `i  1 a 2 21 ]
+"226
+[v SetDot@aux aux `i  1 a 2 19 ]
+"223
+[v SetDot@x x `uc  1 a 1 wreg ]
+[v SetDot@y y `uc  1 p 1 15 ]
+"225
+[v SetDot@x x `uc  1 a 1 25 ]
+"229
+} 0
+"203
+[v _readByte readByte `(uc  1 e 1 0 ]
+{
+[v readByte@p p `uc  1 a 1 wreg ]
+"205
+[v readByte@aux aux `uc  1 a 1 13 ]
+"203
+[v readByte@p p `uc  1 a 1 wreg ]
+[v readByte@y y `uc  1 p 1 12 ]
+"206
+[v readByte@p p `uc  1 a 1 14 ]
+"209
+} 0
+"168
+[v _readByteReal readByteReal `(uc  1 e 1 0 ]
+{
+[v readByteReal@p p `uc  1 a 1 wreg ]
+"170
+[v readByteReal@chip chip `uc  1 a 1 11 ]
+"169
+[v readByteReal@data data `uc  1 a 1 10 ]
+"168
+[v readByteReal@p p `uc  1 a 1 wreg ]
+[v readByteReal@y y `uc  1 p 1 5 ]
+[v readByteReal@first first `uc  1 p 1 6 ]
+"170
+[v readByteReal@p p `uc  1 a 1 7 ]
+"197
+} 0
+"35 C:\Users\jiabo.wang\Desktop\L11_final_lab\PIC18F45K22/main.c
+[v _configPIC configPIC `(v  1 e 1 0 ]
+{
+"55
+} 0
+"23
+[v _configGLCD configGLCD `(v  1 e 1 0 ]
+{
+"33
+} 0
+"213 C:\Users\jiabo.wang\Desktop\L11_final_lab\PIC18F45K22/GLCD.c
+[v _clearGLCD clearGLCD `(v  1 e 1 0 ]
+{
+[v clearGLCD@ri ri `uc  1 a 1 wreg ]
+"215
+[v clearGLCD@j j `i  1 a 2 20 ]
+[v clearGLCD@i i `i  1 a 2 18 ]
+"213
+[v clearGLCD@ri ri `uc  1 a 1 wreg ]
+[v clearGLCD@re re `uc  1 p 1 11 ]
+[v clearGLCD@ci ci `uc  1 p 1 12 ]
+[v clearGLCD@ce ce `uc  1 p 1 13 ]
+"217
+[v clearGLCD@ri ri `uc  1 a 1 17 ]
+"220
+} 0
+"140
+[v _writeByte writeByte `(v  1 e 1 0 ]
+{
+[v writeByte@p p `uc  1 a 1 wreg ]
+"141
+[v writeByte@chip chip `uc  1 a 1 10 ]
+"140
+[v writeByte@p p `uc  1 a 1 wreg ]
+[v writeByte@y y `uc  1 p 1 5 ]
+[v writeByte@data data `uc  1 p 1 6 ]
+[v writeByte@p p `uc  1 a 1 7 ]
+"166
+} 0
+"110
+[v _setYAddress setYAddress `(v  1 e 1 0 ]
+{
+[v setYAddress@y y `uc  1 a 1 wreg ]
+[v setYAddress@y y `uc  1 a 1 wreg ]
+[v setYAddress@y y `uc  1 a 1 4 ]
+"119
+} 0
+"103
+[v _setXAddress setXAddress `(v  1 e 1 0 ]
+{
+[v setXAddress@page page `uc  1 a 1 wreg ]
+[v setXAddress@page page `uc  1 a 1 wreg ]
+[v setXAddress@page page `uc  1 a 1 4 ]
+"106
+} 0
+"131
+[v _GLCDinit GLCDinit `(v  1 e 1 0 ]
+{
+"136
+} 0
+"96
+[v _setStartLine setStartLine `(v  1 e 1 0 ]
+{
+[v setStartLine@z z `uc  1 a 1 wreg ]
+[v setStartLine@z z `uc  1 a 1 wreg ]
+[v setStartLine@z z `uc  1 a 1 4 ]
+"99
+} 0
+"70
+[v _sendGLCDCommand sendGLCDCommand `(v  1 e 1 0 ]
+{
+[v sendGLCDCommand@val val `uc  1 a 1 wreg ]
+[v sendGLCDCommand@val val `uc  1 a 1 wreg ]
+[v sendGLCDCommand@CS CS `uc  1 p 1 2 ]
+"72
+[v sendGLCDCommand@val val `uc  1 a 1 3 ]
+"92
+} 0
+"41
+[v _GLCDBusyWait GLCDBusyWait `(v  1 e 1 0 ]
+{
+[v GLCDBusyWait@CS CS `uc  1 a 1 wreg ]
+"42
+[v GLCDBusyWait@valor valor `uc  1 a 1 0 ]
+"41
+[v GLCDBusyWait@CS CS `uc  1 a 1 wreg ]
+"43
+[v GLCDBusyWait@CS CS `uc  1 a 1 1 ]
+"65
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
